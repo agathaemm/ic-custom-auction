@@ -1,0 +1,4 @@
+export const SUCCESS_LOADING_CARS = "[CARS] SUCCESS LOADING CARS"
+export const ERROR_LOADING_CARS = "[CARS] ERROR LOADING CARS"
+export const LOADING = "[CARS] LOADING"
+export const ADD_BID = "[CARS] ADD BID"

@@ -1,0 +1,63 @@
+.navbar {
+    border-bottom: 1px solid var(--border-color);
+    background: var(--white);
+    height: 60px;
+    width: 100%;
+}
+
+.innerContent {
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    height: 60px;
+}
+
+.navbarItem {
+    flex-grow: 1;
+}
+
+.brandAsset {
+    composes: navbarItem;
+    margin-right: 50px;
+    max-width: 150px;
+}
+
+.phoneAsset {
+    composes: navbarItem;
+    border-left: 2px solid var(--border-color);
+    align-items: center;
+    padding-left: 30px;
+    font-size: 0.75rem;
+    display: flex;
+}
+
+.phoneAsset img {
+    margin-right: 20px;
+    width: 30px;
+}
+
+.userAsset {
+    composes: navbarItem;
+    border: 1px solid var(--border-color);
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    max-width: 150px;
+    display: flex;
+    height: 60px;
+}
+
+.userText {
+    font-size: 0.75rem;
+}
+
+.userImage {
+    max-width: 40px;
+}
+
+.caret {
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}

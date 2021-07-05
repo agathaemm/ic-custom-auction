@@ -1,0 +1,14 @@
+.button {
+    background: var(--green);
+    text-transform: uppercase;
+    color: var(--white);
+    border-radius: 3px;
+    font-weight: 600;
+    height: 36px;
+    width: 100%;
+    border: 0;
+}
+
+.button:hover {
+    cursor: pointer;
+}

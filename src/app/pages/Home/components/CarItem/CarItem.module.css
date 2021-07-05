@@ -1,0 +1,56 @@
+.grid {
+    margin-bottom: 10px;
+}
+
+.item {
+
+}
+
+.splitItem {
+    border-bottom: 2px solid var(--border-color);
+    display: flex;
+    padding: 5px;
+    width: 100%;
+}
+
+.label {
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: .6rem;
+}
+
+.dataGroup {
+    text-transform: uppercase;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-size: 0.9rem;
+    font-weight: bold;
+    display: flex;
+    flex-grow: 1;
+    width: 50%;
+}
+
+.dataGroup strong {
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.dataGroup span {
+    font-weight: 400;
+    display: block;
+}
+
+.redText {
+    color: #ff6d4a;
+}
+
+.greenText {
+    color: #3eb871;
+}
+
+.divider {
+    border-right: 2px solid var(--border-color);
+    width: 0;
+}
